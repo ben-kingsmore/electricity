@@ -61,3 +61,39 @@ update_octopus_data <- function() {
 
   return(consumption)
 }
+
+
+# Probs remove function above given future Octopus data less crucial
+# Incorp this as workhorse
+update_drive_csv <- function(drive_csv, new_data, dup_col = NULL) {
+  existing_data <- drive_read_string(drive_csv) |>
+    readr::read_csv()
+
+  if (
+    !all.equal(
+      names(existing_data),
+      names(new_data)
+    )
+  ) {
+    cli::cli_abort("Columns in new data do not match existing")
+  }
+
+  dup_vals <- new_data[[dup_col]]
+
+  if (!is.null(dup_col)) {
+    existing_data <- existing_data |>
+      filter(.data[[dup_col]] %in% dup_vals)
+  }
+
+  updated_data <- dplyr::bind_rows(
+    existing_data,
+    new_data
+  ) |>
+    distinct()
+
+  write_csv(updated_data, "temp_output.csv")
+  drive_put("temp_output.csv", drive_csv)
+  file.remove("temp_output.csv")
+
+  return(updated_data)
+}
