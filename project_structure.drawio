@@ -1,0 +1,104 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="oVyN9DbRjCqGIgsCgvMV">
+    <mxGraphModel dx="808" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-3" value="Solar forecast" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-4" value="Solar actual&lt;div&gt;Usage actual&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-5" value="Solar historic&lt;div&gt;Usage historic&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-4" target="zSg2q28hsi2jZ9y5hGMa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-9" value="Usage historic" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-7" target="zSg2q28hsi2jZ9y5hGMa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-7" value="Google Drive&lt;div&gt;CSVs&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-5" target="zSg2q28hsi2jZ9y5hGMa-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=75;entryPerimeter=0;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-3" target="zSg2q28hsi2jZ9y5hGMa-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-12" value="Weather forecast&lt;div&gt;Weather historic&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-12" target="zSg2q28hsi2jZ9y5hGMa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-14" target="zSg2q28hsi2jZ9y5hGMa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-14" target="zSg2q28hsi2jZ9y5hGMa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-14" value="Usage model&amp;nbsp;&lt;div&gt;(usage hist, weather hist, calendar)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-15" value="Calendar (days away)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-15" target="zSg2q28hsi2jZ9y5hGMa-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="140" />
+              <mxPoint x="337" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="zSg2q28hsi2jZ9y5hGMa-19" target="zSg2q28hsi2jZ9y5hGMa-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-19" value="Optimiser&lt;div&gt;(usage fcast, solar fcast, prices t+1)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-21" value="Inverter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-23" value="Forecast eval" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-25" value="Solcast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-26" value="Fox ESS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-27" value="???" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="10" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-28" value="Manual CSV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-29" value="Fox ESS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="430" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-30" value="Forecasts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-31" value="Forecasts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Actuals&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="225" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSg2q28hsi2jZ9y5hGMa-32" value="Schedule&lt;div&gt;instructions&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="551" y="401" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
