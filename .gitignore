@@ -18,6 +18,10 @@
 # Output files from R CMD check
 /*.Rcheck/
 
+# Credentials
+config/drive-auth-495919-143ed9936b3b.json
+config/.secrets/
+
 # RStudio files
 .Rproj.user/
 
